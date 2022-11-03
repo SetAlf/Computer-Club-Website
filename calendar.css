@@ -109,7 +109,7 @@ body {
 .title-line {
     margin-inline: 20px;
     margin-top: 0.2rem;
-    background-color: white;
+    background-color: rgb(39, 30, 30);
     height: 3px;
 }
 
