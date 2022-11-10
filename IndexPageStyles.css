@@ -14,13 +14,13 @@ html, body{
 }
 
 header{
-    background: rgba(255, 0, 0, 0.5);
+    background: rgb(152, 0, 0);
     size:100px;
 }
 
 .menu
 {
-    background: rgb(255, 0, 0, 0.5);
+    background: rgb(152, 0, 0);
     border-radius: 0px;   
     position: relative;
   
@@ -63,7 +63,7 @@ header{
     color:rgb(27, 27, 31);
 }
 
-.menu ul li:hover a
+.menu ul li :hover 
 {
     background: rgb(31, 31, 82);
     transition: 1s;
@@ -81,13 +81,16 @@ header{
     position: absolute;
     top: 32px;
     margin-top: 5px;
-    background: rgb(255, 0, 0, 0.5);
+    background: rgb(152, 0, 0);
     border-radius: 6px;
-    width: 155%;
+    width: 225%;
+    height:335%;
     padding: 10px 2px;
     animation-name: dropdown;
     animation-duration: 1s;
-    
+}
+.menu ul li ul li a{
+    background: rgb(152, 0, 0);
 }
 
 @keyframes dropdown {
@@ -98,18 +101,29 @@ header{
 }
 
 .menu ul li ul li a {
-    background: rgb(255, 0, 0, 0.5);
+    background: rgb(152, 0, 0);
 }
 
-.menu ul li ul li a:hover {
-    background: rgb(31, 31, 82);
-}
+
 
 
 
 .main-header{
     background-color:rgb(27, 27, 31);
     background-size: cover;
+}
+.logo{
+    width: 75px;
+    height: 75px;
+    padding:0px;
+
+}
+
+.logo img{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .Logo-Title {
@@ -126,5 +140,5 @@ header{
 }
 
 footer{
-    background-color:rgb(255, 0, 0, 0.5);
+    background-color:rgb(152, 0, 0);
 }

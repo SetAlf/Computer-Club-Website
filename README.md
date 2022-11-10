@@ -7,3 +7,4 @@ Theme Colors:
 
 Font: 
 - 'Futura Std', arial, helvetica, sans-serif;
+- 'share tech mono regular'
